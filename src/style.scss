@@ -81,6 +81,9 @@ nav{
     &:hover {
       background-color: var(--color-scorpion);
       color: var(--color-white);
+    &.current{
+      color: var(--color-scorpion);
+    }
     }
   }
 }
